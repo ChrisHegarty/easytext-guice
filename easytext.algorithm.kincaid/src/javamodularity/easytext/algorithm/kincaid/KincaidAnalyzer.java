@@ -12,6 +12,7 @@ public class KincaidAnalyzer implements Analyzer {
    private SyllableCounter syllableCounter;
 
    @Inject
+   @Open
    public KincaidAnalyzer(@Named("nextgen") SyllableCounter syllableCounter) {
 
       this.syllableCounter = syllableCounter;

@@ -18,6 +18,7 @@ public class CLI {
     private final Set<Analyzer> analyzers;
 
     @Inject
+    @Open
     public CLI(Set<Analyzer> analyzers) {
         this.analyzers = analyzers;
     }

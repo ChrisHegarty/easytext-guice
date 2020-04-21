@@ -1,9 +1,14 @@
 package javamodularity.easytext.algorithm.naivesyllablecounter;
 
+import com.google.inject.Inject;
 import javamodularity.easytext.algorithm.api.SyllableCounter;
 
 public class NaiveSyllableCounter implements SyllableCounter {
-   
+
+   @Inject
+   @Open
+   NaiveSyllableCounter() { }
+
    @Override
    public int countSyllables(String word) {
       int syllables = 0;

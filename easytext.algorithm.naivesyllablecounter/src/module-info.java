@@ -1,8 +1,6 @@
 module easytext.algorithm.naivesyllablecounter {
     requires easytext.algorithm.api;
-    requires guice;
-    requires guice.multibindings;
+    requires com.google.guice;
 
     exports javamodularity.easytext.algorithm.naivesyllablecounter.guice;
-    opens javamodularity.easytext.algorithm.naivesyllablecounter;
 }

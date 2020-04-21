@@ -1,10 +1,8 @@
 module easytext.algorithm.kincaid {
 
     requires easytext.algorithm.api;
-    requires guice;
-    requires guice.multibindings;
+    requires com.google.guice;
     requires javax.inject;
 
     exports javamodularity.easytext.algorithm.kincaid.guice;
-    opens javamodularity.easytext.algorithm.kincaid;
 }

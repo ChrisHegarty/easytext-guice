@@ -5,7 +5,10 @@ import java.util.List;
 import javamodularity.easytext.algorithm.api.Analyzer;
 
 public class ColemanAnalyzer implements Analyzer {
-   
+
+   @Open
+   ColemanAnalyzer() { }
+
    public String getName() {
       return "Coleman-Liau";
    }
